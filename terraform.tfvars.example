@@ -1,0 +1,11 @@
+# Example terraform.tfvars for terraform-aws-s3-hosting-r53-cdn
+
+aws_region      = "us-east-1"
+domain_name     = "example.com"
+bucket_name     = "example-static-site-bucket"
+static_site_dir = "./site-export"
+
+tags = {
+  Project = "StaticSite"
+  Owner   = "Juandi"
+}
